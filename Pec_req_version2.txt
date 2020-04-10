@@ -1,0 +1,45 @@
+Team Mt. Evans is beginning our exploration into the project for Unstructured Data Analysis. 
+Below are summaries of functional and nonfunctional requirements agreed upon by the team.
+
+Dataset: We will be utilizing COVID-19 data provided by Kaggle.com. CSV files can be found in the master banch.
+
+Environment: We will be exploring AWS services, inclusing EMR and S3. We are going to be exploring different visualization
+tools, including Folium, Amazon Quicksight, and Tableau (dependent on research question chosen)
+
+Language: We will be using Spark with Python
+
+Roles: The team discussed individual strengths and weaknesses in this project. We also delegated first step roles for program
+exploration. 
+- Caleb: Amazon Quicksight exploration
+- Sumner: Folium exploration
+- Stephen: Agile exploration
+- Stephen and Olivia: Assembly of Requirement Spec deliverable
+**Team member's roles are ever-evolving and will change with the demands of the project**
+
+In this first phase, it is the team's goal to ingest the chosen data into local machines and explore it further. We are
+currently brainstorming potential research questions independently and exploring the visualization tools necessary for 
+said questions. The team will reconvene next week to discuss findings and next steps in the analysis. Some questions that
+have been presented as potential analyses are:
+
+- What relationships can we draw between high population centers (i.e. New York City, Los Angeles) and rate of infection?
+
+- If we can gather data regarding when each state implemented “Shelter in Place” or “Stay at Home” orders, 
+can we demonstrate a marked decrease in confirmed cases?
+
+- Does the data support the efficacy of one method of social distancing (relatively relaxed i.e. Sweden) vs. another (i.e. The UK, The US)?
+
+- Can we model the time from the first confirmed case to the first 1,000 cases (could be 5,000, 10,000) across different countries?
+
+- Time series forecasting of Covid to see trend, seasonal and residual by using ARIMA in different countries. > Time series
+
+- How many confirmed cases in Colorado and when is everything going to slow down? > data visualization
+
+- Comparison of case growth across Colorado counties (geographical visualization -- gradient map)
+
+- Comparison of country with slowest growth (New Zealand) vs. fastest growth (USA)
+
+- Linear regression analysis of Colorado growth cases vs. New York growth cases (doesn't have to be NY)
+
+Moving forward, the team will discuss findings agree upon a research question to delve into. We will then decide upon
+a visualization prgram that will suit our needs, and we will begin to develop the code to tackle the research question.
+Upon further instruction from the professor, we will discuss needs for the Design Documentation.
