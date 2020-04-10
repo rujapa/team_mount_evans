@@ -36,7 +36,9 @@ can we demonstrate a marked decrease in confirmed cases?
 
 - Comparison of case growth across Colorado counties (geographical visualization -- gradient map)
 
-- OTHER IDEAS LIST HERE
+- Comparison of country with slowest growth (New Zealand) vs. fastest growth (USA)
+
+- Linear regression analysis of Colorado growth cases vs. New York growth cases (doesn't have to be NY)
 
 Moving forward, the team will discuss findings agree upon a research question to delve into. We will then decide upon
 a visualization prgram that will suit our needs, and we will begin to develop the code to tackle the research question.
