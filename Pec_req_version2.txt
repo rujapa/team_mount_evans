@@ -1,4 +1,3 @@
-
 Team Mt. Evans is beginning our exploration into the project for Unstructured Data Analysis. 
 Below are summaries of functional and nonfunctional requirements agreed upon by the team.
 
