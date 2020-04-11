@@ -1,8 +1,8 @@
-
+﻿
 Team Mt. Evans is beginning our exploration into the project for Unstructured Data Analysis. 
 Below are summaries of functional and nonfunctional requirements agreed upon by the team.
 
-Dataset: We will be utilizing COVID-19 data provided by Kaggle.com. CSV files can be found in the master banch.
+Dataset: We will be utilizing COVID-19 data provided by Kaggle.com. CSV files can be found in the master branch.
 
 Environment: We will be exploring AWS services, inclusing EMR and S3. We are going to be exploring different visualization
 tools, including Folium, Amazon Quicksight, and Tableau (dependent on research question chosen)
@@ -41,6 +41,11 @@ can we demonstrate a marked decrease in confirmed cases?
 
 - Linear regression analysis of Colorado growth cases vs. New York growth cases (doesn't have to be NY)
 
+- Fatalities are a lagging indicator of new infections. Can we model the average time after contraction before fatalities are reported? 
+ 
+
+
 Moving forward, the team will discuss findings agree upon a research question to delve into. We will then decide upon
 a visualization prgram that will suit our needs, and we will begin to develop the code to tackle the research question.
 Upon further instruction from the professor, we will discuss needs for the Design Documentation.
+
