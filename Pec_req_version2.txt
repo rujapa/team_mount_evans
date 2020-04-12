@@ -11,6 +11,7 @@ Language: We will be using Spark with Python
 Roles: The team discussed individual strengths and weaknesses in this project. We also delegated first step roles for program
 exploration. 
 - Caleb: Amazon Quicksight exploration
+Amazon Quicksight ties in directly with Amazon S3, but is not included in our Amazon classroom setting, which means we would need to use a separate account and defeat the purpose of utilizing an AWS service for visualization. I was able to find an article explaining how to source AWS EMR for visualizations through Tableau Desktop, which offers the same basic services as Amazon Quicksight and might be our best bet for presenting our data graphically, depending on others' findings.
 - Sumner: Folium exploration
 - Stephen: Agile exploration
 - Stephen and Olivia: Assembly of Requirement Spec deliverable
