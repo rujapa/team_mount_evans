@@ -45,3 +45,4 @@ can we demonstrate a marked decrease in confirmed cases?
 Moving forward, the team will discuss findings agree upon a research question to delve into. We will then decide upon
 a visualization prgram that will suit our needs, and we will begin to develop the code to tackle the research question.
 Upon further instruction from the professor, we will discuss needs for the Design Documentation.
+ 
