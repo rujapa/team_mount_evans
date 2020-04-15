@@ -13,6 +13,7 @@ exploration.
 - Caleb: Amazon Quicksight exploration
 Amazon Quicksight ties in directly with Amazon S3, but is not included in our Amazon classroom setting, which means we would need to use a separate account and defeat the purpose of utilizing an AWS service for visualization. I was able to find an article explaining how to source AWS EMR for visualizations through Tableau Desktop, which offers the same basic services as Amazon Quicksight and might be our best bet for presenting our data graphically, depending on others' findings.
 - Sumner: Folium exploration
+S3 can host a static webpage, which can use folium to create interactive maps. This could be interesting for creating a dashboard, but may be more difficult for reporting purposes. I, like Caleb, found that Tableau Desktop to be mentioned as a good tool for visualizations in S3 and feel it would work well for this project.
 - Stephen: Agile exploration
 - Stephen and Olivia: Assembly of Requirement Spec deliverable
 **Team member's roles are ever-evolving and will change with the demands of the project**
