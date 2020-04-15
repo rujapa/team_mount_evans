@@ -1,8 +1,9 @@
 Team Mt. Evans is beginning our exploration into the project for Unstructured Data Analysis. 
 Below are summaries of functional and nonfunctional requirements agreed upon by the team.
 
-Dataset: We will be utilizing COVID-19 data provided by Kaggle.com. CSV files can be found in the master banch.
-
+Dataset: We will be utilizing global statistical COVID-19 data provided by Kaggle.com. CSV files can be found in the master banch.
+         We will also be utilizing twitter data on COVID-19 from the month of March 2020, which can be accessed at the google drive link:
+         https://drive.google.com/drive/folders/1o26j9gJgmjtFRodo-4gNusJNqbMavZ56?usp=sharing
 Environment: We will be exploring AWS services, inclusing EMR and S3. We are going to be exploring different visualization
 tools, including Folium, Amazon Quicksight, and Tableau (dependent on research question chosen)
 
