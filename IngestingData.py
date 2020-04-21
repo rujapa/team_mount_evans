@@ -352,6 +352,89 @@ plt.axis("off")
 
 
 # In[ ]:
+#ALTERNATIVE WORDCLOUD CREATION USING PD DATAFRAME. STILL USING SUBSETTED CSV AND APRIL CSV
+#Somewhat cleaner code
+
+# In[1]:
+
+
+import pandas as pd
+from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
+pip install wordcloud
+from wordcloud import WordCloud, STOPWORDS
+
+
+# In[10]:
+
+
+marchdf=pd.read_csv("marchdata.CSV")
+
+
+# In[11]:
+
+
+marchdf=marchdf[marchdf.lang=="en"]
+
+
+# In[12]:
+
+
+marchdf=marchdf[["created_at",'text','screen_name','retweet_count','followers_count','friends_count']]
+
+
+# In[13]:
+
+
+marchdf.head()
+
+
+# In[14]:
+
+
+text=str(marchdf[["text"]])
+
+
+# In[15]:
+
+
+stopwords=set(STOPWORDS)
+wordcloud=WordCloud(stopwords=stopwords).generate(text)
+
+
+# In[16]:
+
+
+plt.imshow(wordcloud)
+plt.figure(figsize = (10, 10), facecolor = None)
+
+
+# In[22]:
+
+
+aprildf=pd.read_csv("aprildata.CSV")
+aprildf=aprildf[aprildf.lang=="en"]
+aprildf=aprildf[["created_at",'text','screen_name','retweet_count','followers_count','friends_count']]
+
+
+# In[23]:
+
+
+text2=str(aprildf[["text"]])
+
+
+# In[26]:
+
+
+stopwords=["text"]+list(STOPWORDS)
+wordcloud2=WordCloud(stopwords=stopwords).generate(text2)
+
+
+# In[27]:
+
+
+plt.imshow(wordcloud2)
+plt.figure(figsize = (10, 10), facecolor = None)
 
 
 
